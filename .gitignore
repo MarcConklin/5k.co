@@ -1,0 +1,26 @@
+node_modules
+.DS_Store
+*.log
+nohup.out
+.vercel
+
+# Exclude analysis scripts
+screenshot-analyzer.js
+analyze-screenshots-only.js
+validate-and-fix-scores.js
+retry-failed-sites.js
+create-gallery.js
+create-grid-viewer.js
+grid-server.js
+dashboard-server.js
+check-validation-progress.sh
+
+# Exclude CSV and log files
+*.csv
+analysis-log.txt
+validation-log.txt
+final-analysis-log.txt
+
+# Exclude HTML files
+screenshot-gallery.html
+screenshot-grid-viewer.html

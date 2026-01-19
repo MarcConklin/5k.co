@@ -1,0 +1,17 @@
+node_modules
+*.log
+.DS_Store
+*.csv
+analysis-log.txt
+validation-log.txt
+nohup.out
+screenshot-analyzer.js
+analyze-screenshots-only.js
+validate-and-fix-scores.js
+retry-failed-sites.js
+create-gallery.js
+create-grid-viewer.js
+grid-server.js
+dashboard-server.js
+check-validation-progress.sh
+
